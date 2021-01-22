@@ -1,84 +1,54 @@
-### Moshi Moshi~ I'm Nazwa<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
-<p align="center">
-<a href="https://github.com/NazwaS"><img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/Nazwa.jpg"></a>
-</p>
-<br>
+### Oiin sou o Toin src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
 
 
 
-<p align="center">
-<a href="#"><img title="termux-whatsapp-bot" src="https://img.shields.io/badge/-TERMUX--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/NazwaS"><img title="Author" src="https://img.shields.io/badge/AUTHOR-NAZWAS-orange?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/NazwaS/followers"><img title="Followers" src="https://img.shields.io/github/followers/NazwaS?style=flat-square"></a>
-<a href="https://github.com/NazwaS/termux-whatsapp-bot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/NazwaS/termux-whatsapp-bot?style=flat-square"></a>
-<a href="https://github.com/NazwaS/termux-whatsapp-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/NazwaS/termux-whatsapp-bot?style=flat-square"></a>
-<a href="https://github.com/NazwaS/termux-whatsapp-bot/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/NazwaS/termux-whatsapp-bot?style=flat-square"></a>
-</p>
+<summary>🍙 Ajuda!</summary>
 
-<img src="https://media4.giphy.com/media/qLFKvOpoS1N7ts7xO8/giphy.gif">
-<details>
-
-<summary>🍙 Help me!</summary>
-
-* [Saweria](https://saweria.co/nazwas)
-* [Trakteer](https://trakteer.id/NazwaS)
-</details>
-
-## Tools
+## Ferramentas
 
 ```bash
 > Termux
 > WhatsApp
-> 2 HandPhone
+> 2 Celulares
 ```
 
 ---
 
-## Information
-- Change vcard contacts name on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/index.js#L78)
-- Change vcard bot name on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/index.js#L79)
-- Change vcard WhatsApp id on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/index.js#L35)
-- Change vcard WhatsApp number on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/index.js#L80)
-- Change owner number id on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/index.js#L80)
-- Change menu on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/src/help.js)
-- Change BarBarKey on [this section](https://github.com/NazwaS/termux-whatsapp-bot/blob/main/index.js#L289)
-
----
 
 - Get BarBarKey on [this site](https://mhankbarbar.tech)
 
 ---
 
-## Install
-Follow The Steps Below!
+## Instalar
+Siga os passos abaixo!
 
 ```bash
 > termux-setup-storage
-(after that tap on permission)
-> apt install git -y
-> git clone https://github.com/NazwaS/termux-whatsapp-bot
-> cd termux-whatsapp-bot
+(depois disso toque na permissão)
+> pkg install git
+> pkg install ffmpeg
+> pkg install wget
+> pkg install nodejs
+> pkg install npm
+> git clone https://github.com/ToinNetuh/ToiniuBot.git
+> cd ToiniuBot
 > bash install.sh
 ```
 
-## Usage
+## Uso
 
 ```bash
 > npm start
 ```
 
-## Features
+## características
 
-| unique features | YES
+| características únicas | sim
 | :---------------------------------------------: | :-----------: |
-|  Register Name And Age|✅|
-|         Leveling    |✅|
+|  Registrar nome e idade|✅|
+|         Level    |✅|
 
-|  MAKER  |                                           YES |
+|  FAZ  |                                           sim |
 | :---------------------------------------------: | :-----------: |
 | Sticker Maker|✅|
 | Sticker Gif Maker|✅|
@@ -114,31 +84,31 @@ Follow The Steps Below!
 | Herry Potter Image Maker|✅|
 | Pubg Logo Maker|✅|
 
-| SimSimi | YES |
+| SimSimi | sim |
 | :-----------------: | :-------: |
 | Simi|✅|
 | Simih|✅|
 
-| MEDIA | YES |
+| MEDIA | sim |
 | :-----------------: | :-------: |
 | Trend Twit|✅|
 | YT Search|✅|
 | Random KPOP|✅|
 
-| EDUCATION | YES |
+| EDUCATION | sim |
 | :-----------------: | :-------: |
 | The Meaning Of The Name|✅|
 | Nulis|✅|
 | Quotes|✅|
 | Quotes2|✅|
 
-| ASK | YES |
+| ASK | sim |
 | :-----------------: | :-------: |
 | Apakah|✅|
 | Kapankah|✅|
 | Bisakah|✅|
 
-| DOWNLOADER | YES |
+| DOWNLOADER | sim |
 | :-----------------: | :-------: |
 | Pinterest Downloader|✅|
 | Ytmp3 Downloader|✅|
@@ -147,12 +117,12 @@ Follow The Steps Below!
 | Joox2 Downloader|✅|
 | TikTok Downloader|✅|
 
-| MEME | YES |
+| MEME | sim |
 | :-----------------: | :-------: |
 | Meme|✅|
 | Meme Indo|✅|
 
-| GROUP | YES |
+| GRUPO | sim |
 | :-----------------: | :-------: |
 | Open Group|✅|
 | Close Group|✅|
@@ -173,26 +143,26 @@ Follow The Steps Below!
 | Nsfw|✅|
 | Simih|✅|
 
-| SOUND | YES |
+| SOUND | sim |
 | :-----------------: | :-------: |
 | Text To Speach|✅|
 | Play|✅|
 
-| MUSIC | YES |
+| MÚSICA | sim |
 | :-----------------: | :-------: |
 | Music Lyrics|✅|
 | Chord Guitar|✅|
 
-| ISLAM | YES |
+| ISLAM | sim |
 | :-----------------: | :-------: |
 | Qur'an|✅|
 
-| STALK | YES |
+| STALK | sim |
 | :-----------------: | :-------: |
 | Instagram Stalk|✅|
 | Tiktok Stalk|✅|
 
-| WIBU | YES |
+| WIBU | sim |
 | :-----------------: | :-------: |
 | Neonime|✅|
 | Pokemon|✅|
@@ -205,7 +175,7 @@ Follow The Steps Below!
 | Random Husbu2|✅|
 | What Anime Is This|✅|
 
-| FUN | YES |
+| FUN | sim |
 | :-----------------: | :-------: |
 | Alay|✅|
 | Glitch|✅|
@@ -215,7 +185,7 @@ Follow The Steps Below!
 | Random Hobby|✅|
 | Simi|✅|
 
-| INFORMATION | YES |
+| INFORMAÇÃO | sim |
 | :-----------------: | :-------: |
 | List Bahasa|✅|
 | List Kode Negara|✅|
@@ -227,13 +197,18 @@ Follow The Steps Below!
 | Ping|✅|
 | Jadwal TV Now|✅|
 
-| 18+ | YES |
+| 18+ | sim |
 | :-----------------: | :-------: |
 | Random Hentai|✅|
 | NSFW Neko|✅|
 | NSFW Trap|✅|
+| NSFW Ass|✅|
+| NSFW Bobs|✅|
+| NSFW Sidebobs|✅|
 
-| OWNER | YES |
+
+
+| DONO | sim |
 | :-----------------: | :-------: |
 | Set Prefix|✅|
 | Block Member|✅|
@@ -242,7 +217,7 @@ Follow The Steps Below!
 | Clear All Chat|✅|
 | Clone Photo Profile Bot|✅|
 
-| OTHER | YES |
+| OUTROS | sim |
 | :-----------------: | :-------: |
 | Send|✅|
 | WaMe|✅|
@@ -257,11 +232,9 @@ Follow The Steps Below!
 
 ---
 
-<img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/tenor.gif">
 
----
 
-## Special Thanks To
+## Agradecimentos especiais para
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
 - [RyzRdy](https://github.com/RyzRdy)
@@ -269,3 +242,4 @@ Follow The Steps Below!
 - [mrfzvx12](https://github.com/mrfzvx12)
 - [Mr-hadi](https://github.com/Mr-hadi)
 - [MhankBarBar](https://github.com/mhankbarbar)
+- [NazwaS](https://github.com/NazwaS)

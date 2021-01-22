@@ -2,17 +2,19 @@ const help = (prefix) => {
 	return `
 「 *Toin BOT* 」
 
-◪ *INFO*
+◪ *informações*
   ❏ Prefix: 「  ${prefix}  」
   ❏ Criador : Toin
-◪ *ABOUT*
+  ❏ Como instalar o BOT: https://www.youtube.com/watch?v=4cjhlXo9aGo
+
+◪ *SOBRE*
   │
   ├─ ❏ ${prefix}info
   ├─ ❏ ${prefix}blocklist
   ├─ ❏ ${prefix}chatlist
   ├─ ❏ ${prefix}ping
   └─ ❏ ${prefix}bugreport
-◪ *MAKER*
+◪ *FAZER*
   │
   ├─ ❏ ${prefix}sticker
   ├─ ❏ ${prefix}stickergif
@@ -70,7 +72,7 @@ const help = (prefix) => {
   └─ ❏ ${prefix}bisakah
 ◪ *DOWNLOADER*
   │
-  ├─ ❏ ${prefix}pinterest
+  ├─ ❏ ${prefix}images
   ├─ ❏ ${prefix}ytmp3
   ├─ ❏ ${prefix}ytmp4
   ├─ ❏ ${prefix}tiktok
@@ -79,34 +81,11 @@ const help = (prefix) => {
   │
   ├─ ❏ ${prefix}meme
   └─ ❏ ${prefix}memeindo
-◪ *GROUP*
-  │
-  ├─ ❏ ${prefix}opengc
-  ├─ ❏ ${prefix}closegc
-  ├─ ❏ ${prefix}promote
-  ├─ ❏ ${prefix}demote
-  ├─ ❏ ${prefix}tagall
-  ├─ ❏ ${prefix}tagall2
-  ├─ ❏ ${prefix}tagall3
-  ├─ ❏ ${prefix}tagall4
-  ├─ ❏ ${prefix}tagall5
-  ├─ ❏ ${prefix}add
-  ├─ ❏ ${prefix}kick
-  ├─ ❏ ${prefix}listadmins
-  ├─ ❏ ${prefix}linkgroup
-  ├─ ❏ ${prefix}leave
-  ├─ ❏ ${prefix}welcome
-  ├─ ❏ ${prefix}nsfw
-  ├─ ❏ ${prefix}leveling
-  ├─ ❏ ${prefix}level
-  ├─ ❏ ${prefix}delete
-  ├─ ❏ ${prefix}simih
-  └─ ❏ ${prefix}ownergroup
-◪ *SOUND*
+◪ *SOM*
   │
   ├─ ❏ ${prefix}play
   └─ ❏ ${prefix}tts
-◪ *MUSIC*
+◪ *MÚSICA*
   │
   ├─ ❏ ${prefix}lirik
   └─ ❏ ${prefix}chord
@@ -128,12 +107,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}husbu2
   ├─ ❏ ${prefix}wait
   └─ ❏ ${prefix}nekonime
-◪ *18+*
-  |
-  ├─ ❏ ${prefix}randomhentai
-  ├─ ❏ ${prefix}nsfwtrap
-  └─ ❏ ${prefix}nsfwneko
-◪ *FUN*
+◪ *DIVERSÃO*
   │
   ├─ ❏ ${prefix}alay
   ├─ ❏ ${prefix}gantengcek
@@ -144,7 +118,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}trust
   ├─ ❏ ${prefix}dare
   └─ ❏ ${prefix}simi
-◪ *INFORMATION*
+◪ *INFORMAÇÃO*
   │
   ├─ ❏ ${prefix}bahasa
   ├─ ❏ ${prefix}kodenegara
@@ -154,7 +128,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}infogempa
   ├─ ❏ ${prefix}jadwaltvnow
   └─ ❏ ${prefix}covid
-◪ *OWNER*
+◪ *DONO*
   │
   ├─ ❏ ${prefix}setprefix
   ├─ ❏ ${prefix}block
@@ -162,7 +136,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}bcgc
   ├─ ❏ ${prefix}clone
   └─ ❏ ${prefix}clearall
-◪ *OTHER*
+◪ *OUTROS*
   │
   ├─ ❏ ${prefix}send
   ├─ ❏ ${prefix}wame
@@ -173,7 +147,6 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}timer
   ├─ ❏ ${prefix}fml
   └─ ❏ ${prefix}fml2
-◪ *OWNER_NAME2*
 `
 }
 
