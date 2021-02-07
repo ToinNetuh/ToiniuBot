@@ -1,22 +1,22 @@
 const downloader = (prefix, botName, ownerName) => {
 	return `
-「 *BOT_NAME* 」
+「 *Nintendo* 」
 
 ◪ *INFO*
-  ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator: OWNER_NAME
-◪ *ABOUT*
+  ❏ Prefix:*
+  ❏ Creator: Atari
+◪ *Sobre*
   │
-  ├─ ❏ ${prefix}info
-  ├─ ❏ ${prefix}blocklist
-  ├─ ❏ ${prefix}chatlist
-  ├─ ❏ ${prefix}ping
-  └─ ❏ ${prefix}bugreport
+  ├─ ❏ *info
+  ├─ ❏ *blocklist
+  ├─ ❏ *chatlist
+  ├─ ❏ *ping
+  └─ ❏ *bugreport
 ◪ *DOWNLOADER*
   │
-  ├─ ❏ ${prefix}pinterest
-  ├─ ❏ ${prefix}ytmp3
-  ├─ ❏ ${prefix}ytmp4
-  └─ ❏ ${prefix}tiktok`
+  ├─ ❏ *pinterest
+  ├─ ❏ *ytmp3
+  ├─ ❏ *ytmp4
+  └─ ❏ *tiktok`
 }
 exports.downloader = downloader
