@@ -1,4 +1,4 @@
-### Oiin sou o Toin
+### Oiin sou o WIZARD
 
 
 
