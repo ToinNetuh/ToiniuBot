@@ -336,9 +336,9 @@ async function starts() {
  
        /******END OF FUNCTIONS INPUT******/
 			switch(command) {
-				case 'help':
+				case 'كانا':
 				case 'menu':
-					client.sendMessage(from, help(prefix), text)
+					client.sendMessage(from, كانا(prefix), text)
 					break
                                 /*case 'makermenu':
                                         hisil = fs.readFileSync('./src/makerimg.jpg')
@@ -796,7 +796,7 @@ case 'timer':
 					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/hilih?teks=${body.slice(7)}`, {method: 'get'})
 					reply(anu.result)
 					break
-				case 'tagall':
+				case 'منشن':
 				client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
@@ -1019,7 +1019,7 @@ case 'timer':
 					}
 					break
 
-				case 'kick':
+				case 'طرد':
 					client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
@@ -1050,7 +1050,7 @@ case 'timer':
 		           }
 	           })
                   break
-                 case 'linkgroup':
+                 case 'الرابط':
 				case 'linkgrup':
 				case 'linkgc':
 				    client.updatePresence(from, Presence.composing) 
@@ -1127,7 +1127,7 @@ case 'timer':
                hasil = `Pertanyaan : *${body.slice(1)}*\n\nJawaban : *${random2} ${random}*`
               reply(hasil)
                 break
-			case 'closegc':
+			case 'اغلاق':
 					client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
@@ -1141,7 +1141,7 @@ case 'timer':
 					reply(close)
 					break
                 case 'opengc':
-                case 'bukagc':
+                case 'فتح':
 					client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
@@ -1153,10 +1153,10 @@ case 'timer':
 					client.groupSettingChange (from, GroupSettingChange.messageSend, false)
 					client.sendMessage(from, open, text, {quoted: mek})
 					break
-				case 'stiker':
+				case 'ستيكر':
 				case 'sticker':
 				case 'stickergif':
-				case 'stikergif':
+				case 'ستكر':
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
@@ -1224,7 +1224,7 @@ case 'timer':
 					})
 					break
 
-				case 'toimg':
+				case 'صوره':
 				    client.updatePresence(from, Presence.composing)
                                     if (!isUser) return reply(mess.only.daftarB)
 					if (!isQuotedSticker) return reply('❌ الملصقات فقط ❌')
@@ -1318,22 +1318,22 @@ case 'timer':
 						fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
 						client.sendMessage(from, `\`\`\`O registro foi bem sucedido com SN: TM08GK8PPHBSJDH10J\`\`\`\n\n\`\`\`Pada ${date} ${time}\`\`\`\n\`\`\`[Nama]: ${jeneng}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Era]: ${umure}\`\`\`\n\`\`\`Para usar o bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usuários ${user.length}\`\`\``, text, {quoted: mek})
 					break
-                                case 'welcome':
+                                case 'ترحيب':
 					if (!isGroup) return reply(mess.only.group)
                                         if (!isUser) return reply(mess.only.daftarB)
 					if (!isGroupAdmins) return reply(mess.only.Badmin)
-					if (args.length < 1) return reply('digite 1 para ativar')
+					if (args.length < 1) return reply('اكتب 1 للتفعيل')
 					if (Number(args[0]) === 1) {
-						if (isWelkom) return reply('o recurso está ativo')
+						if (isWelkom) return reply('الميزة نشطة')
 						welkom.push(from)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
 						reply('❬ SUCESSO ❭ ativado o recurso de boas-vindas neste grupo')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, disable)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-						reply('❬ SUCESSO ❭ desativado o recurso de boas-vindas neste grupo')
+						reply('❬ نجاح تم تعطيل ميزة الترحيب في هذه المجموعة')
 					} else {
-						reply('digite 1 para ativar, 0 para desativar o recurso')
+						reply('اكتب 1 لتمكين ، 0 لتعطيل الميزة')
 					}
                                         break
                                 case 'fakta':
@@ -1424,7 +1424,7 @@ case 'timer':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break				
-                                 case 'nsfw':
+                                 case 'الهنتاي':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('digite 1 para ativar')
