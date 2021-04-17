@@ -1,6 +1,6 @@
-const nsfwmenu = (prefix, pushname) => {
+const الهنتاي = (prefix, pushname) => {
     return `Oiin resumindo aqui e o menu NSFW
-    ◪ *NSFW*
+    ◪ *الهنتاي*
   │
   ├─ ❏ ${prefix}nsfwbobs
   ├─ ❏ ${prefix}randomhentaio
@@ -19,4 +19,4 @@ const nsfwmenu = (prefix, pushname) => {
 
 }
 
-exports.nsfwmenu = nsfwmenu
+exports.الهنتاي = الهنتاي
