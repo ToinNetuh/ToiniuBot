@@ -1,4 +1,4 @@
-const help = (prefix) => {
+const كانا = (prefix) => {
 	return `
 「 *كانا* 」
 
@@ -150,4 +150,4 @@ const help = (prefix) => {
 `
 }
 
-exports.help = help
+exports.كانا = كانا
