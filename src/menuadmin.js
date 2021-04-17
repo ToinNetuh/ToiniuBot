@@ -1,4 +1,4 @@
-const menuadmin = (prefix, pushname) => {
+const المشرفين = (prefix, pushname) => {
  return `المشرفين
  
  
@@ -30,4 +30,4 @@ const menuadmin = (prefix, pushname) => {
 
 }
 
-exports.menuadmin = menuadmin
+exports.المشرفين = المشرفين
